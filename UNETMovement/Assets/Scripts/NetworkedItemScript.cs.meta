@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d89ab01d375f34371b7596d75fee7cf0
+timeCreated: 1453096322
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_bullet: {fileID: 443460, guid: 6389174af581a4ef9816545fab369aaf, type: 2}
+  - m_weaponController: {fileID: 11444016, guid: a499cffee07c44320837b4eb89ff9e57,
+      type: 2}
+  - m_animator: {instanceID: 0}
+  - m_Aimpoint: {instanceID: 0}
+  - m_ShootPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

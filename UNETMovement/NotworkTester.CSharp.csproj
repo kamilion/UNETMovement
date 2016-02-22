@@ -15,8 +15,8 @@
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-    <UnityVersion>5.3.1p3</UnityVersion>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.3.2f1</UnityVersion>
     <RootNamespace></RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -26,7 +26,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -36,7 +36,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -57,33 +57,250 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="NSpeex">
+      <HintPath>Assets\DFVoice\Plugins\NSpeex.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AnimationController.cs" />
-    <Compile Include="Assets\Scripts\AutoDestroy.cs" />
-    <Compile Include="Assets\Scripts\BodyController.cs" />
-    <Compile Include="Assets\Scripts\BulletScript.cs" />
-    <Compile Include="Assets\Scripts\ComponentsList.cs" />
-    <Compile Include="Assets\Scripts\Holster.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\ItemScript.cs" />
-    <Compile Include="Assets\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\NetworkMovement.cs" />
-    <Compile Include="Assets\Scripts\NetworkPawn.cs" />
-    <Compile Include="Assets\Scripts\PickupScript.cs" />
-    <Compile Include="Assets\Scripts\ShootEffect.cs" />
-    <Compile Include="Assets\Scripts\Spectator.cs" />
-    <Compile Include="Assets\Scripts\TargetMover.cs" />
-    <Compile Include="Assets\Scripts\WeaponController.cs" />
+    <ProjectReference Include="NotworkTester.CSharp.Plugins.csproj">
+      <Project>{9B01F307-C686-C92A-D69E-D832F8D6CF12}</Project>
+      <Name>NotworkTester.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DFVoice\Scripts\Codec\IAudioCodec.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Codec\SpeexCodec.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Components\TestLocalVoiceController.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Components\UnityNetworkVoiceController.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Components\VoiceControllerBase.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\IO\AudioClipInputDevice.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\IO\AudioInputDeviceBase.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\IO\IAudioPlayer.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\IO\MicrophoneInputDevice.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\IO\UnityAudioPlayer.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Misc\VoicePacketWrapper.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Utils\AudioUtils.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Utils\BigArray.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Utils\ChunkBuffer.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Utils\FastList.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Utils\TempArray.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Utils\VoiceControllerCollection.cs" />
+    <Compile Include="Assets\DFVoice\Scripts\Utils\VoiceControllerKeyedCollection.cs" />
+    <Compile Include="Assets\DFVoice\Splash\Scripts\SplashScreen.cs" />
+    <Compile Include="Assets\LPC_network\NetworkedDude.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\ChangeScene.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\DisableButton.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\InstantiateThings.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\MoveButton.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\Rotate.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\RotateCar.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\RotateLight.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Demo\DemoScripts\SwapCarTexture.cs" />
+    <Compile Include="Assets\PBR Mini_Truck\Standard Assets\Scripts\SmoothFollow.cs" />
+    <Compile Include="Assets\Scripts\NetworkedCustomScriptTemplate.cs" />
+    <Compile Include="Assets\Scripts\NetworkedGeometryObservesDamage.cs" />
+    <Compile Include="Assets\Scripts\NetworkedItemPickupScript.cs" />
+    <Compile Include="Assets\Scripts\NetworkedItemScript.cs" />
+    <Compile Include="Assets\Scripts\NetworkedLocalParticleEffect.cs" />
+    <Compile Include="Assets\Scripts\NetworkedLocalParticleEffectAutoDestroy.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserver.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverAnimationController.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverBodyController.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverClimbingController.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverInventory.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverSMHolster.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverSMMouseLook.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverSkinController.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverSoundController.cs" />
+    <Compile Include="Assets\Scripts\NetworkedObserverWeaponController.cs" />
+    <Compile Include="Assets\Scripts\NetworkedRaycastBulletScript.cs" />
+    <Compile Include="Assets\Scripts\NetworkedRouterOfComponentsForObserver.cs" />
+    <Compile Include="Assets\Scripts\NetworkedSpectator.cs" />
+    <Compile Include="Assets\Scripts\NetworkedTargetMover.cs" />
+    <Compile Include="Assets\Scripts\NetworkedTimestepMovement.cs" />
+    <Compile Include="Assets\Scripts\UnetDebug.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\AutoInitialize.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\Api.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\ApiUtil.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\BugReportApi.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\BugReportScreenshotUtil.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\CircularBuffer.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\EditorUtil.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\OptionControlFactory.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\OptionDefinition.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\Paths.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\Service.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\Strings.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Internal\Util.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Profiler\ProfilerCameraListener.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Profiler\ProfilerLateUpdateListener.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Profiler\ProfilerServiceImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\SRDebug.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\SRDebuggerInit.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\SROptions.Attributes.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\SROptions.Test.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\SROptions.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IBugReportService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IConsoleService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IDebugCameraService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IDebugPanelService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IDebugService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IDebugTriggerService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IDockConsoleService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IOptionsService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IPinEntryService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IPinnedOptionsService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\IProfilerService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\ISystemInformationService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\BugReportApiService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\BugReportPopoverService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\DebugCameraServiceImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\DebugPanelServiceImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\DebugTriggerImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\DockConsoleServiceImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\KeyboardShortcutListenerService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\OptionsServiceImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\PinEntryServiceImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\PinnedUIServiceImpl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\SRDebugService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\StandardConsoleService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\Implementation\SystemInformationService.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Services\ServiceSelectors.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Settings.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\ConsoleEntryView.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\ConsoleLogControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\ActionControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\BoolControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\DataBoundControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\EnumControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\NumberControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\OptionsControlBase.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\StringControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\InfoBlock.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\MultiTapButton.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\PinEntryControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Profiler\ProfilerFPSLabel.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Profiler\ProfilerMemoryBlock.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\Profiler\ProfilerMonoBlock.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\ProfilerEnableControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\ProfilerGraphAxisLabel.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\ProfilerGraphControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Controls\SRTabButton.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\DebugPanelRoot.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\DebuggerTabController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\MobileMenuController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\BugReportPopoverRoot.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\BugReportSheetController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\CategoryGroup.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\ConfigureCanvasFromSettings.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\ConsoleTabQuickViewControl.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\DebugPanelBackgroundBehaviour.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\DockConsoleController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\DockConsoleRoot.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\HandleManager.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\IEnableTab.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\LoadingSpinnerBehaviour.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\PinnedUIRoot.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\SRTab.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\SRTabController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\ScrollRectPatch.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\ScrollSettingsBehaviour.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\SetLayerFromSettings.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\TriggerRoot.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Other\VersionTextBehaviour.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Tabs\BugReportTabController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Tabs\ConsoleTabController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Tabs\InfoTabController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Tabs\OptionsTabController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\UI\Tabs\ProfilerTabController.cs" />
+    <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\Version.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\External\Jetbrains.Annotations.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\External\MiniJSON.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Internal\ComponentMenuPaths.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Collections\SRList.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Components\SRAutoSingleton.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Components\SRMonoBehaviour.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Components\SRMonoBehaviourEx.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Components\SRSingleton.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Coroutines.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Extensions\FloatExtensions.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Extensions\IListExtensions.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Extensions\NetFxExtensions.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\AssetUtil.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\Hierarchy.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\MethodReference.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\PropertyReference.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\SRDebugUtil.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\SRFileUtil.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\SRInstantiate.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\SRMath.Tweening.Functions.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\SRMath.Tweening.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\SRMath.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Helpers\SRReflection.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Service\Attributes.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Service\IAsyncService.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Service\SRDependencyServiceBase.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Service\SRSceneServiceBase.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Service\SRServiceBase.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\Service\SRServiceManager.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\ContentFitText.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\CopyLayoutElement.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\CopyPreferredSize.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\DragHandle.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\FlashGraphic.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\InheritColour.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\Layout\FlowLayoutGroup.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\Layout\VirtualVerticalLayoutGroup.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\LongPressButton.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\ResponsiveBase.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\ResponsiveEnable.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\ResponsiveResize.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\SRNumberButton.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\SRNumberSpinner.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\SRRetinaScaler.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\SRSpinner.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\SRText.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\StyleComponent.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\StyleRoot.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\StyleSheet.cs" />
+    <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\Unselectable.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\Connection.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\ConnectionManager.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\ConnectionPoint.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\GraphNode.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\Util\NewBehaviourScript.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\Util\ObfuscateObject.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\Util\ObfuscateText.cs" />
+    <Compile Include="Assets\UIGraph\Scripts\Util\SpinCamera.cs" />
+    <Compile Include="Assets\lowPolyCharacters\Scripts\LocomotionPlayer.cs" />
+    <Compile Include="Assets\lowPolyCharacters\Scripts\MouseOrbitImproved.cs" />
+    <Compile Include="Assets\lowPolyCharacters\Scripts\enemy\Enemy.cs" />
+    <Compile Include="Assets\lowPolyCharacters\Scripts\enemy\EnemySences.cs" />
+    <Compile Include="Assets\lowPolyCharacters\Scripts\enemy\HitDetector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DFVoice\Plugins\NSpeexLicense.txt" />
+    <None Include="Assets\DFVoice\Plugins\OpusLicense.txt" />
+    <None Include="Assets\DFVoice\README.txt" />
+    <None Include="Assets\SimpleMilitary\Changelog.txt" />
+    <None Include="Assets\SimpleMilitary\Materials\UnlitVertexColour_Alpha.shader" />
+    <None Include="Assets\SimpleMilitary\ReadMe.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\StompyRobot\SRDebugger\README.txt" />
+    <None Include="Assets\StompyRobot\SRDebugger\UI\Fonts\FONT LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
